@@ -33,8 +33,8 @@ if [ ! -e $PYTHON_VERSION_NUM ] ; then
     cd Python-$PYTHON_VERSION_NUM && \
     ./configure && \
     make install"
-    echo "Install aws cli"
-    pip install --upgrade awscli
+    echo "#Install aws cli"
+    echo "RUN pip install --upgrade awscli"
 fi
 
 # if [ ! -e $PHP_VERSION_NUM ] ; then
